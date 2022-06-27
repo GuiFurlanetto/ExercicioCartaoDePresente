@@ -12,6 +12,11 @@ public class Main {
         System.out.println("Para: " + cartaoDiaDosNamorados.nomeDestinatario);
         System.out.println(cartaoDiaDosNamorados.mostrarMensagem());
 
+        DiaDosPais cartaoDiaDosPais = new DiaDosPais("Guilherme","Ilton");
+        System.out.println("De: " + cartaoDiaDosPais.nomeRemetente);
+        System.out.println("Para: " + cartaoDiaDosPais.nomeDestinatario);
+        System.out.println(cartaoDiaDosPais.mostrarMensagem());
+
 
 
     }
