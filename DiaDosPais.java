@@ -6,7 +6,6 @@ public class DiaDosPais extends CartaoDePresente{
 
     @Override
     public String mostrarMensagem(){
-        System.out.println("FELIZ DIA DOS PAIS :D");
-        return "";
+        return ("FELIZ DIA DOS PAIS :D");
     }
 }

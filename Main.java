@@ -17,6 +17,10 @@ public class Main {
         System.out.println("Para: " + cartaoDiaDosPais.nomeDestinatario);
         System.out.println(cartaoDiaDosPais.mostrarMensagem());
 
+        DiaDasCriancas cartaoDiaDasCriancas = new DiaDasCriancas("Guilherme","crianca");
+        System.out.println("De: " + cartaoDiaDasCriancas.nomeRemetente);
+        System.out.println("Para: " + cartaoDiaDasCriancas.nomeDestinatario);
+        System.out.println(cartaoDiaDasCriancas.mostrarMensagem());
 
 
     }

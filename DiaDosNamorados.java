@@ -5,8 +5,7 @@ public class DiaDosNamorados extends CartaoDePresente{
 
     @Override
     public String mostrarMensagem(){
-        System.out.println("FELIZ DIA DOS NAMORADOS s2");
-        return "";
+        return ("FELIZ DIA DOS NAMORADOS s2");
     }
 
 }
